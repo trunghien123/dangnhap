@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="dangnhap.css" rel="stylesheet" type="text/css" />
+<link href="dangnhap.js" type="text/javascript" />
+</head>
+
+<body>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+	<form id="id01" class="modal">    
+        <div class="bodyform">
+            <div class="img">	
+				<div class="imgclose close" onclick="document.getElementById('id01').style.display='none'" title="Close	Modal" >    															&times;
+                </div>
+                <img src="img/login.png"/>
+                
+            </div>
+            <div class="noidung">
+                <div>
+                    <input type="text" placeholder="Tên đăng nhập" name="dangnhap" maxlength="100" size="30" class="box"/>
+                </div>	
+                <div>
+                    <input type="password" placeholder="Mật khẩu" name="matkhau" minlength="5" size="30" class="box"/>
+                </div>
+                <div>
+                    <input type="checkbox" name="nhomatkhau" class="box" />Nhớ mật khẩu<br /><br />
+                    <a href="#" class="box">Quên mật khẩu ?</a>
+                </div>
+                <div>
+                    <input type="submit" name="login" value="Đăng nhập" class="checkboxdn" align="middle"/>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    
+</body>
+</html>
+á

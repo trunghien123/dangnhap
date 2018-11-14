@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration:none;
+}
+.bodyform{
+	width:400px;
+	height:480px;
+	background:url(img/bgrr.jpg) no-repeat;
+	margin:auto;
+}
+.img{
+	height:150px;
+	text-align:center;
+}
+.img > img
+{
+	padding-top:20px;
+}
+.imgclose
+{
+	width:auto;
+	height:auto;
+	float:right;
+	clear:both;
+}
+.noidung
+{
+	height:260px;
+	margin:30px 50px 30px 50px;
+}
+.noidung > div
+{
+	height:25%;
+}
+.box{
+	padding:10px;
+	margin-left:20px;
+	border:0;
+}
+.checkboxdn
+{
+	border:0;
+	margin-left:98px;
+	background:#CC6;
+	cursor:pointer;
+	width:95px;
+	height:40px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* The Close Button (x) */
+.close {
+	padding-top:0;
+	padding-right:5px;
+	text-align:right;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+	height: 35px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
